@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+        <link href="cat_styles.css" rel="stylesheet">
+        <title>Missy</title>
+        <script src="cat.js"></script>
+    </head>
+    <body>
+        <div class="text">
+            <p>Click on different buttons to see different pictures of my cat, Missy.</p>
+            <a href="https://www.google.com/search?client=firefox-b-d&q=missy+doctor+who">Who is she named after?</a>
+        </div>
+        <div class="buttons">
+            <input type="button" onclick = "showImg('image01')" value= "Long Missy">
+            <input type="button" onclick = "showImg('image02')" value= "Playful Missy">
+            <input type="button" onclick = "showImg('image03')" value= "Sweet Missy">
+            <input type="button" onclick = "showImg('image04')" value= "PC Missy">
+            <input type="button" onclick = "showImg('image05')" value= "Oven Missy">
+            <input type="button" onclick = "showImg('image06')" value= "Licky Missy">
+        </div>
+        <br>
+        <img id="image01" src="photos/long.jpg" class="hide" alt="...">
+        <img id="image02" src="photos/playful.jpg" class="hide" alt="...">
+        <img id="image03" src="photos/sweet.jpg" class="hide" alt="...">
+        <img id="image04" src="photos/pc.jpg" class="hide" alt="...">
+        <img id="image05" src="photos/oven.jpg" class="hide" alt="...">
+        <img id="image06" src="photos/licky.jpg" class="hide" alt="...">
+        <div class=text>
+            <a href="index.html">Home |</a>
+            <a href="band.html">My favourite band |</a>
+            <a href="space.html">Space exploration</a>
+        </div>
+    </body>
+</html>

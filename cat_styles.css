@@ -1,0 +1,30 @@
+body {
+    background-color: Bisque;
+}
+
+.text {
+    font-family: georgia;
+    color: CornflowerBlue;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.show{display:block;}
+
+.hide{display:none;}
+
+img {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input {
+    background-color: AntiqueWhite;
+}
+
+.buttons {
+    text-align: center;
+}
+

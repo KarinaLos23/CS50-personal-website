@@ -1,0 +1,21 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-family: georgia;
+}
+
+a {
+    color: white;
+    font-family: georgia;
+}
+
+.image-box {
+    display: block;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+}
